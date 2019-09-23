@@ -30,8 +30,3 @@ about:
   license: BSD 3-clause
   license_file: {{ RECIPE_DIR if RECIPE_DIR is defined else '.' }}/LICENSE.txt
   summary: Metapackage to select the MPI variant. Use conda's pinning mechanism in your environment to control which variant you want.
-
-extra:
-  recipe-maintainers:
-    - minrk
-    - ocefpaf
